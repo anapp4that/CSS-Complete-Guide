@@ -1,5 +1,13 @@
+body {
+    font-family: sans-serif;
+}
+
 .special code {
     color: green;
+}
+
+li { 
+    font-family: inherit;
 }
 
 h1 {
