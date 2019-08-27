@@ -10,7 +10,14 @@ body {
     color: #2ddf5c;
 }
 
-h1 {
+/* Combinator */
+/* The More specific rule has a higher specificty,
+so it wins for the tags under that id */
+#product-overview h1 {
     color: white;
     font-family: 'Anton', sans-serif;
+}
+
+h1 {
+    font-family: 'sans-serif';
 }
