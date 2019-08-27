@@ -2,6 +2,11 @@ body {
     font-family: sans-serif;
 }
 
+ol li + li{
+    background-color: black;
+    color: white;
+}
+
 .special code {
     color: green;
 }
