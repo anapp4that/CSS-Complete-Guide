@@ -16,19 +16,23 @@ body {
 
 .section-title {
     color: #2ddf5c;
+    text-align: center;
 }
 
-/* Combinator */
-/* The More specific rule has a higher specificty,
-so it wins for the tags under that id */
 #product-overview h1 {
     color: white;
     font-family: 'Anton', sans-serif;
 }
 
-/* h1 {
-    font-family: 'sans-serif';
-} */
+.plan {
+    background-color: #d5ffdc;
+    text-align: center;
+    padding: 16px;
+    margin: 8px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+}
 
 .main-header {
     width: 100%;
@@ -72,16 +76,6 @@ so it wins for the tags under that id */
     font-weight: bold;
     padding: 3px 0;
 }
-
-/* .main-nav__item a:before {
-    content: " (LINK)";
-    color: red;
-} */
-
-/* .main-nav__item a:after {
-    content: " (LINK)";
-    color: red;
-} */
 
 .main-nav__item a:hover,
 a:active {
