@@ -22,7 +22,6 @@ body {
 #product-overview h1 {
     color: white;
     font-family: 'Anton', sans-serif;
-    text-shadow: -1px black, -1px black, -1px black, -1px black;
 }
 
 .plan {
@@ -95,6 +94,46 @@ body {
 
 .button:focus {
     outline: none;
+}
+
+#key-features {
+    background-color: #ff1b68;
+    margin-top: 80px;
+    padding: 16px;
+}
+
+#key-features .section-title {
+    color: white;
+    margin: 32px;
+}
+
+.key-features__list {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+.key-feature {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+.key-feature__image {
+    background: #ffcede;
+    width: 128px;
+    height: 128px;
+    border: 2px solid #424242;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.key-feature-description {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
 }
 
 .main-header {
