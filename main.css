@@ -8,4 +8,5 @@
 .box1 {
     height: 300px;
     width: 50%;
+    visibility: hidden;
 }
