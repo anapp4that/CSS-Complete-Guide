@@ -1,3 +1,3 @@
 # CSS-Complete-Guide
-## Section 3
-### Diving Deeper
+## Section 5
+### Practicing the Basics
