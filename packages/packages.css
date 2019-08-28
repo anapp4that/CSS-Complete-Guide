@@ -38,6 +38,10 @@ main {
     background: white;
 }
 
+.clearfix {
+    clear: both;
+}
+
 #plus {
     background: rgba(213, 255, 220, 0.95);
 }
