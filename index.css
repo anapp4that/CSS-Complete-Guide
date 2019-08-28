@@ -22,6 +22,7 @@ body {
 #product-overview h1 {
     color: white;
     font-family: 'Anton', sans-serif;
+    text-shadow: -1px black, -1px black, -1px black, -1px black;
 }
 
 .plan {
@@ -90,6 +91,10 @@ body {
 .button:active {
     color: #0e4f41;
     background-color: white;
+}
+
+.button:focus {
+    outline: none;
 }
 
 .main-header {
