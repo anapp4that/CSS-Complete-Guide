@@ -8,5 +8,8 @@
 .box1 {
     height: 300px;
     width: 50%;
-    visibility: hidden;
+}
+
+.box2:hover {
+    background: darkgrey;
 }
