@@ -25,6 +25,12 @@
     vertical-align: middle;
 }
 
+.plan__list {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
 .plan--highlighted {
     background-color: #19b84c;
     color: white;
