@@ -12,6 +12,7 @@ body {
     position: fixed;
     background-color: #2ddf5c;
     padding: 8px 16px;
+    margin-top: 0px;
     z-index: 10;
 }
 
