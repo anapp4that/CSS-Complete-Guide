@@ -9,6 +9,7 @@
 #slogan {
     position: fixed;
     top: 475px;
+    z-index: 50;
 }
 
 .section-title {
