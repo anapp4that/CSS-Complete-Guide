@@ -1,5 +1,5 @@
 # CSS-Complete-Guide
-## Section 7
-### Understanding Background Images & images
+## Section 8
+### Dimensions, Sizes, & Units
 
-First "advanced" module of this course
+Because there is more than "px"
