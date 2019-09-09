@@ -14,12 +14,12 @@ for (var i = 0; i < selectPlanButtons.length; i++) {
     });
 }
 
+modalNo.addEventListener("click", closeModal);
+
 backdrop.addEventListener("click", function() {
     mobileNav.style.display = "none";
     closeModal();
 });
-
-modalNo.addEventListener("click", closeModal);
 
 function closeModal() {
     modal.style.display = "none";
