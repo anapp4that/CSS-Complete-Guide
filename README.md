@@ -1,5 +1,3 @@
 # CSS-Complete-Guide
-## Section 8
-### Dimensions, Sizes, and Units
-
-Because there is more than "px"
+## Section 9
+### Working with Javascript & CSS
