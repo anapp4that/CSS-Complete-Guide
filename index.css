@@ -28,6 +28,7 @@
 @media (min-width: 40rem) {
     #product-overview {
         height: 40vh;
+        background-position: 50% 25%;
     }
 
     #product-overview h1 {
@@ -96,7 +97,7 @@
     .plan {
         display: inline-block;
         width: 30%;
-        margin: 0.5rem;
+        /* margin: 0.5rem; */
         vertical-align: middle;
         min-width: 13rem;
         max-width: 25rem;

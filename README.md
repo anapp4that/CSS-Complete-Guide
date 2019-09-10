@@ -6,9 +6,8 @@
 
 * The media query should be active for screens with a minimum width of 40rem
 * The "toggle-button" should not be visible as soon as the media query is active
-
-###### Hint: We might have to improve the Navigation Bar height once the button disappears. Make sure to have a look at the ".main-header__brand" and ".main-header__brand img" selectors.
-###### The "main-nav" elements should only be visible when the media query is active
+    * Hint: We might have to improve the Navigation Bar height once the button disappears. Make sure to have a look at the ".main-header__brand" and ".main-header__brand img" selectors.
+* The "main-nav" elements should only be visible when the media query is active
 
 ### 2. Create another media query. The query should again become active once the screen width is equal or larger than 40rem
 
