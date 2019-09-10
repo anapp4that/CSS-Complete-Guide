@@ -1,4 +1,5 @@
 # CSS-Complete-Guide
-## Section 9
-### Working with Javascript & CSS
+## Section 10
+### Making our Website Responsive
+Let's make our page look awesome on all devices
 
