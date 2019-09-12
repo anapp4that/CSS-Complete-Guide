@@ -65,12 +65,14 @@ main {
 .package__description {
     padding: 1rem;
     border: 1px solid #0e4f1f;
-    font-size: 1.25rem;
+    /* font-size: 1.25rem; */
     color: #0e4f1f;
     background: white;
-    font-family: "AnonymousPro", sans-serif;
-    font-weight: 700;
-    font-style: italic;
+    /* font-family: "AnonymousPro", sans-serif;
+    font-weight: 700; */
+    /* font shorthand: style variant, weight, size, font-family,  */
+    /* font: italic small-caps 700 1.2rem "AnonymousPro", sans-serif; */
+    font: 700 1.2rem "AnonymousPro", sans-serif;
 }
 
 .clearfix {
