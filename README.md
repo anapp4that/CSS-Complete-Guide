@@ -1,5 +1,5 @@
 # CSS-Complete-Guide
-## Section 11
-### Styling Form Elements
-Handling user input with grace
+## Section 12
+### Working with Text and Fonts
+How we can make our information look beautiful
 
