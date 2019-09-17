@@ -171,17 +171,23 @@ main {
 .main-footer__items {
     list-style: none;
     padding: 0;
-    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-footer__item {
-    display: block;
-    margin: 1rem 0;
+    margin: 0.5rem 0;
 }
 
 @media (min-width: 40rem) {
+    .main-footer__items {
+        flex-direction: row;
+        align-items: center;
+    }
     .main-footer__item {
-        display: inline-block;
         margin: 0 1rem;
     }
 }
