@@ -1,5 +1,8 @@
 # CSS-Complete-Guide
-## **Assignment 6**
+## Section 13
+### Working with Flexbox
+The modern way to change the way our elements are displayed
 
-Using our knew found knowledge of flexbox update the packages and key features page
-to use flexbox.
+This is the beginning of the "Expert Track" of this course.
+
+
