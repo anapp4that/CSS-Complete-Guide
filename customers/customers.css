@@ -64,8 +64,10 @@ main {
 
 @media (min-width: 40rem) {
     .testimonial {
-        margin: 3rem auto;
-        max-width: 93.75rem;
+        display: flex;
+        max-width: 1500px;
+        align-items: center;
+        justify-content: space-around;
     }
 
     .testimonial__image-container {

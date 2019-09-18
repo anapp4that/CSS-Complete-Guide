@@ -34,7 +34,7 @@ main {
     left: 0;
     background: #2ddf5c;
     padding: 0.5rem 1rem;
-    z-index: 1;
+    z-index: 30;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -84,6 +84,7 @@ main {
     padding: 0;
     list-style: none;
     display: flex;
+    justify-content: right;
 }
 
 .main-nav__item {
@@ -153,6 +154,10 @@ main {
 }
 
 @media (min-width: 40rem) {
+    .main-header {
+        justify-content: space-between;
+    }
+
     .toggle-button {
         display: none;
     }
