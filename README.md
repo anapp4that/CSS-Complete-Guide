@@ -1,9 +1,8 @@
 # CSS-Complete-Guide
+## Section 14
+### CSS Grid
 
-Following the CSS Complete Guide Course From Udemy
+Creating highly customizable page layouts
 
-Each section of the course is in its own separate branch
-
-First section where we actually write anything is section 2
-
-https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/
+This branch will contain code from an example project where we explore the CSS grid
+before adding it to the main project.
