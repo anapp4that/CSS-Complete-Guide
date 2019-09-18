@@ -1,8 +1,5 @@
 # CSS-Complete-Guide
-## Section 13
-### Working with Flexbox
-The modern way to change the way our elements are displayed
+## Section 14
+### CSS Grid
 
-This is the beginning of the "Expert Track" of this course.
-
-
+Creating highly customizable page layouts
