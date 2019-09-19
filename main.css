@@ -10,32 +10,30 @@ body {
     grid-template-columns: [col-1-start] 1fr [col-1-end col-2-start] 3fr
         [col-2-end];
     grid-template-rows: 4.5rem auto 4.5rem;
+
+    grid-template-areas: "header header" "Sidebar Main" "Footer Footer";
 }
 
 header {
     color: white;
     background-color: blue;
-    grid-column-start: col-1-start;
-    grid-column-end: col-2-end;
+    grid-area: header;
 }
 
 main {
     background-color: red;
     color: white;
-    grid-column-start: col-2-start;
+    grid-area: Main;
 }
 
 aside {
     background-color: green;
     color: white;
-    grid-column-start: col-1-start;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-area: Sidebar;
 }
 
 footer {
     background-color: purple;
     color: white;
-    grid-column-start: col-1-start;
-    grid-column-end: col-2-end;
+    grid-area: Footer;
 }
