@@ -1,9 +1,4 @@
 # CSS-Complete-Guide
+## **Assignment 7**
 
-Following the CSS Complete Guide Course From Udemy
-
-Each section of the course is in its own separate branch
-
-First section where we actually write anything is section 2
-
-https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/
+You already learned a lot about the basic features of the CSS Grid, now it's time to practice!
