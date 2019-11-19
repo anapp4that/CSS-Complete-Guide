@@ -12,6 +12,9 @@
     grid-gap: 20px;
     grid-template-areas: "header header header header" "side side main main"
         "footer footer footer footer";
+    /* The two lines below are at their default values, set them to start, end, or center for different effects  */
+    justify-items: stretch;
+    align-items: stretch;
 }
 
 .el1 {
