@@ -1,5 +1,5 @@
 # CSS-Complete-Guide
 ## Section 15
-### CSS Transforms
+### Transitions & Animations
 
-Rotating, scaling and moving things around
+Keep your users engaged
