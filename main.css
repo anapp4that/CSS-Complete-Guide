@@ -1,10 +1,11 @@
 .container {
     margin: 20px;
     display: grid;
-    height: 500px;
-    grid-template-columns: [hd-start] repeat(4, [col-start] 25% [col-end])
+    height: 800px;
+    width: 800px;
+    grid-template-columns: [hd-start] repeat(4, [col-start] 20% [col-end])
         [hd-end];
-    grid-template-rows: [hd-start] 5rem [hd-end row-2-start] minmax(10px, 200px)
+    grid-template-rows: [hd-start] 5rem [hd-end row-2-start] minmax(10px, 20rem)
         [row-2-end row-3-start] 100px [row-3-end];
     /* grid-column-gap: 20px;
     grid-row-gap: 10px; */
@@ -13,8 +14,10 @@
     grid-template-areas: "header header header header" "side side main main"
         "footer footer footer footer";
     /* The two lines below are at their default values, set them to start, end, or center for different effects  */
-    justify-items: stretch;
-    align-items: stretch;
+    justify-items: stretch; /* justify means alog the x axis */
+    align-items: stretch;   /* align means alog the y axis */
+    justify-content: center;
+    align-content: end;
 }
 
 .el1 {
