@@ -40,6 +40,11 @@ main {
     font-size: 12px;
     background-color: #ff5454;
     padding: 8px;
+    transform: rotateZ(45deg);
+    /*
+    default
+    transform-origin: center;
+    */
 }
 
 .package_title {
