@@ -1,4 +1,4 @@
 # CSS-Complete-Guide
-## Assignment 9
+## Assignment 10
 
-Add a "sliding" animation to the mobile side menu. Make sure to achieve this with the help of what you learned about transforms and transitions.
+Add a CSS animation to the "package" boxes on the "Packages" page. The animation should push the elements up gently - feel free to implement any solution which yields a "push-up" effect. There's more than one correct way of doing this.
