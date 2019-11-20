@@ -1,5 +1,5 @@
 # CSS-Complete-Guide
-## Section 17
-### Modern CSS
+## Section 18
+### An Introduction to Sass
 
-Because it's constantly changing
+CSS on Steroids
