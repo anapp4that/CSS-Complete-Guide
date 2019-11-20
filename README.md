@@ -1,5 +1,4 @@
 # CSS-Complete-Guide
-## Section 15
-### Transitions & Animations
+## Assignment 9
 
-Keep your users engaged
+Add a "sliding" animation to the mobile side menu. Make sure to achieve this with the help of what you learned about transforms and transitions.
