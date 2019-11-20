@@ -1,5 +1,5 @@
 # CSS-Complete-Guide
-## Section 15
-### Transitions & Animations
+## Section 17
+### Modern CSS
 
-Keep your users engaged
+Because it's constantly changing
