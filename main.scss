@@ -1,7 +1,8 @@
 $colors: (main: #521751, secondary: #fa923f);
 $background-color: lighten(map-get($colors, main), 70%);
-$border-default: 0.05rem solid map-get($colors, main);
-$rem-units:(default: 1rem, tiny: 0.2rem);
+$size:(default: 1rem, tiny: 0.2rem);
+$default-width: 90%;
+$border-default: map-get($size, tiny)/4 solid map-get($colors, main);
 
 @import "typography.css";
 
@@ -24,17 +25,17 @@ body {
     wrap: nowrap;
   }
   align-items: center;
-  padding: 3rem 0;
+  padding: map-get($size, default)*3 0;
   box-sizing: border-box;
 }
 
 .sass-introduction {
   border: $border-default;
   background: $background-color;
-  padding: 2rem;
+  padding: map-get($size, default)*2;
   text-align: center;
-  box-shadow: map-get($rem-units, tiny) map-get($rem-units, tiny) 0.1rem #ccc;
-  width: 90%;
+  box-shadow: map-get($size, tiny) map-get($size, tiny)map-get($size, tiny)/2 #ccc;
+  width: $default-width;
   box-sizing: border-box;
 
   & p {
@@ -45,10 +46,10 @@ body {
 .sass-details {
   border: $border-default;
   background: $background-color;
-  padding: map-get($rem-units, default);
+  padding: map-get($size, default);
   text-align: center;
-  margin: 2rem 0;
-  width: 90%;
+  margin: map-get($size, default)*2 0;
+  width: $default-width;
   box-sizing: border-box;
 }
 
@@ -56,13 +57,13 @@ body {
   border-bottom: $border-default;
 
   & h1 {
-    margin: 0 0 map-get($rem-units, default) 0;
+    margin: 0 0 map-get($size, default) 0;
   }
 }
 
 .documentation-links {
   list-style: none;
-  margin: map-get($rem-units, default) 0 0 0;
+  margin: map-get($size, default) 0 0 0;
   padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -71,7 +72,7 @@ body {
   flex-direction: column;
 
   & li {
-    margin: map-get($rem-units, tiny) 0;
+    margin: map-get($size, tiny) 0;
     background: white;
   }
 
@@ -79,7 +80,7 @@ body {
     text-decoration: none;
     color: map-get($colors, main);
     display: block;
-    padding: map-get($rem-units, tiny);
+    padding: map-get($size, tiny);
     border: $border-default;
   }
 
