@@ -19,7 +19,7 @@ body {
 
 .sass-introduction {
   border: 0.05rem solid #521751;
-  background: white;
+  background: #f4daf4;
   padding: 2rem;
   text-align: center;
   box-shadow: 0.2rem 0.2rem 0.1rem #ccc;
@@ -30,7 +30,7 @@ body {
 
 .sass-details {
   border: 0.05rem solid #521751;
-  background: white;
+  background: #f4daf4;
   padding: 1rem;
   text-align: center;
   margin: 2rem 0;
@@ -62,7 +62,7 @@ body {
     border: 0.05rem solid #521751; }
   .documentation-links .documentation-link:hover, .documentation-links .documentation-link:active {
     color: white;
-    background: white;
+    background: #fa923f;
     border-color: #fa923f; }
 
 @media (min-width: 40rem) {
