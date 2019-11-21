@@ -1,5 +1,7 @@
 $colors: (main: #521751, secondary: #fa923f);
+$background-color: lighten(map-get($colors, main), 70%);
 $border-default: 0.05rem solid map-get($colors, main);
+$rem-units:(default: 1rem, tiny: 0.2rem);
 
 @import "typography.css";
 
@@ -28,10 +30,10 @@ body {
 
 .sass-introduction {
   border: $border-default;
-  background: lighten(map-get($colors, main), 70%);
+  background: $background-color;
   padding: 2rem;
   text-align: center;
-  box-shadow: 0.2rem 0.2rem 0.1rem #ccc;
+  box-shadow: map-get($rem-units, tiny) map-get($rem-units, tiny) 0.1rem #ccc;
   width: 90%;
   box-sizing: border-box;
 
@@ -39,11 +41,11 @@ body {
     margin: 0;
   }
 }
-
+ 
 .sass-details {
   border: $border-default;
-  background: lighten(map-get($colors, main), 70%);
-  padding: 1rem;
+  background: $background-color;
+  padding: map-get($rem-units, default);
   text-align: center;
   margin: 2rem 0;
   width: 90%;
@@ -54,13 +56,13 @@ body {
   border-bottom: $border-default;
 
   & h1 {
-    margin: 0 0 1rem 0;
+    margin: 0 0 map-get($rem-units, default) 0;
   }
 }
 
 .documentation-links {
   list-style: none;
-  margin: 1rem 0 0 0;
+  margin: map-get($rem-units, default) 0 0 0;
   padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -69,7 +71,7 @@ body {
   flex-direction: column;
 
   & li {
-    margin: 0.2rem 0;
+    margin: map-get($rem-units, tiny) 0;
     background: white;
   }
 
@@ -77,7 +79,7 @@ body {
     text-decoration: none;
     color: map-get($colors, main);
     display: block;
-    padding: 0.2rem;
+    padding: map-get($rem-units, tiny);
     border: $border-default;
   }
 
@@ -92,10 +94,6 @@ body {
 @media (min-width: 40rem) {
   html {
     font-size: 125%;
-  }
-
-  .container {
-    padding: 3rem 0;
   }
 
   .sass-introduction,
