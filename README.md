@@ -1,6 +1,6 @@
 # CSS-Complete-Guide
 
-Completed 11/21/19 (Look in branched titled section18 for the last work from the course)
+Completed 11/21/19 (Look in branch titled section18 for the last work from the course)
 
 Following the CSS Complete Guide Course From Udemy
 
