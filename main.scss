@@ -6,8 +6,25 @@ $border-default: map-get($size, tiny)/4 solid map-get($colors, main);
 
 @import "typography.css";
 
+@mixin display-flex(){
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin media-min-width($width){
+  @media (min-width: $width){
+    @content;
+  }
+}
+
 html {
   font-size: 94.75%;
+
+  @include media-min-width(40rem){
+    font-size: 125%
+  }
 }
 
 body {
@@ -16,10 +33,7 @@ body {
 }
 
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
+  @include display-flex();
   flex:{
     direction: column;
     wrap: nowrap;
@@ -29,14 +43,23 @@ body {
   box-sizing: border-box;
 }
 
-.sass-introduction {
+.sass-section{
   border: $border-default;
   background: $background-color;
   padding: map-get($size, default)*2;
   text-align: center;
-  box-shadow: map-get($size, tiny) map-get($size, tiny)map-get($size, tiny)/2 #ccc;
   width: $default-width;
   box-sizing: border-box;
+
+  @include media-min-width(40rem){
+      width: 30rem;
+    }
+}
+
+.sass-introduction {
+  @extend .sass-section;
+  box-shadow: map-get($size, tiny) map-get($size, tiny)map-get($size, tiny)/2 #ccc;
+  
 
   & p {
     margin: 0;
@@ -44,10 +67,7 @@ body {
 }
  
 .sass-details {
-  border: $border-default;
-  background: $background-color;
-  padding: map-get($size, default);
-  text-align: center;
+  @extend .sass-section;
   margin: map-get($size, default)*2 0;
   width: $default-width;
   box-sizing: border-box;
@@ -65,10 +85,7 @@ body {
   list-style: none;
   margin: map-get($size, default) 0 0 0;
   padding: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
+  @include display-flex();
   flex-direction: column;
 
   & li {
@@ -93,10 +110,6 @@ body {
 }
 
 @media (min-width: 40rem) {
-  html {
-    font-size: 125%;
-  }
-
   .sass-introduction,
   .sass-details {
     width: 30rem;
