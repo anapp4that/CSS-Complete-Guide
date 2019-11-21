@@ -1,5 +1,5 @@
 # CSS-Complete-Guide
-## Section 18
-### An Introduction to Sass
+## Assignment 11
 
-CSS on Steroids
+Make some more improvements to the scss
+Variabalize what you think needs to be Variabalize, and nest what you can
