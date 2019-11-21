@@ -1,4 +1,4 @@
-$colors: (main: #521751, background: #fae5ff, secondary: #fa923f)
+$colors: (main: #521751, secondary: #fa923f)
 $border-default: 0.05rem solid map-get($colors, main)
 @import "typography.css"
 html
@@ -9,7 +9,7 @@ body
     margin: 0
 
 .container
-    display: -webkit-box
+    display: -webkit-box 
     display: -ms-flexbox
     display: -webkit-flex
     display: flex
@@ -22,7 +22,7 @@ body
 
 .sass-introduction
     border: $border-default
-    background: map-get($colors, background)
+    background: lighten(map-get($colors, main), 80%)
     padding: 2rem
     text-align: center
     box-shadow: 0.2rem 0.2rem 0.1rem #ccc
@@ -34,7 +34,7 @@ body
 
 .sass-details
     border: $border-default
-    background: map-get($colors, background)
+    background: lighten(map-get($colors, main), 80%)
     padding: 1rem
     text-align: center
     margin: 2rem 0
@@ -71,7 +71,7 @@ body
     & .documentation-link:hover,
     & .documentation-link:active
         color: white
-        background: map-get($colors, secondary)
+        background: lighten(map-get($colors, main), 80%)
         border-color: map-get($colors, secondary)
 
 @media (min-width: 40rem)
